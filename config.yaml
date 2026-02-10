@@ -1,0 +1,9 @@
+database:
+  host: 127.0.0.1
+  port: 5432
+  name: data_pipeline_project
+  user: postgres
+
+paths:
+  raw_data: data/raw/superstore_sales.csv
+  processed_data: data/processed/superstore_sales_processed.csv
