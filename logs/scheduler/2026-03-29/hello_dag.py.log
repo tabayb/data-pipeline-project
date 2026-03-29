@@ -1,0 +1,133 @@
+[2026-03-29T12:01:37.253+0500] {processor.py:161} INFO - Started process (PID=32272) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:01:37.254+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:01:37.256+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:01:37.255+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:01:37.261+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:01:37.277+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:01:37.277+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:01:37.286+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:01:37.286+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:01:37.302+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.055 seconds
+[2026-03-29T12:02:36.887+0500] {processor.py:161} INFO - Started process (PID=32591) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:02:36.888+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:02:36.889+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:02:36.889+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:02:36.894+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:02:36.909+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:02:36.909+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:02:36.917+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:02:36.917+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:02:36.972+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.091 seconds
+[2026-03-29T12:06:34.487+0500] {processor.py:161} INFO - Started process (PID=170) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:06:34.528+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:06:34.529+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:06:34.529+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:06:34.534+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:06:34.551+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:06:34.550+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:06:34.560+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:06:34.559+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:06:34.576+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.096 seconds
+[2026-03-29T12:07:42.986+0500] {processor.py:161} INFO - Started process (PID=455) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:07:42.987+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:07:42.989+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:07:42.988+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:07:42.994+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:07:43.012+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:07:43.012+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:07:43.025+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:07:43.024+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:07:43.047+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.066 seconds
+[2026-03-29T12:08:59.925+0500] {processor.py:161} INFO - Started process (PID=776) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:08:59.926+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:08:59.927+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:08:59.927+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:08:59.932+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:08:59.949+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:08:59.949+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:08:59.958+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:08:59.958+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:08:59.976+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.057 seconds
+[2026-03-29T12:10:16.146+0500] {processor.py:161} INFO - Started process (PID=1013) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:10:16.147+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:10:16.148+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:10:16.148+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:10:16.153+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:10:16.168+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:10:16.167+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:10:16.176+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:10:16.176+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:10:16.229+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.089 seconds
+[2026-03-29T12:11:29.128+0500] {processor.py:161} INFO - Started process (PID=1202) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:11:29.129+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:11:29.131+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:11:29.131+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:11:29.136+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:11:29.155+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:11:29.154+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:11:29.166+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:11:29.165+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:11:29.221+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.100 seconds
+[2026-03-29T12:12:46.405+0500] {processor.py:161} INFO - Started process (PID=1408) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:12:46.406+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:12:46.408+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:12:46.407+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:12:46.412+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:12:46.427+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:12:46.427+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:12:46.435+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:12:46.435+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:12:46.489+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.089 seconds
+[2026-03-29T12:14:00.091+0500] {processor.py:161} INFO - Started process (PID=1601) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:14:00.092+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:14:00.093+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:14:00.093+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:14:00.098+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:14:00.113+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:14:00.113+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:14:00.121+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:14:00.121+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:14:00.135+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.050 seconds
+[2026-03-29T12:15:20.627+0500] {processor.py:161} INFO - Started process (PID=1812) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:15:20.627+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:15:20.629+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:15:20.629+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:15:20.633+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:15:20.648+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:15:20.648+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:15:20.657+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:15:20.657+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:15:20.711+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.090 seconds
+[2026-03-29T12:16:40.596+0500] {processor.py:161} INFO - Started process (PID=2018) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:16:40.597+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:16:40.598+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:16:40.598+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:16:40.603+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:16:40.618+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:16:40.618+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:16:40.626+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:16:40.626+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:16:40.766+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.176 seconds
+[2026-03-29T12:18:00.254+0500] {processor.py:161} INFO - Started process (PID=2229) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:18:00.255+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:18:00.257+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:18:00.256+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:18:00.261+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:18:00.276+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:18:00.276+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:18:00.285+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:18:00.285+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:18:00.339+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.091 seconds
+[2026-03-29T12:19:16.546+0500] {processor.py:161} INFO - Started process (PID=2426) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:19:16.547+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:19:16.549+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:19:16.548+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:19:16.554+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:19:16.569+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:19:16.569+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:19:16.578+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:19:16.578+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:19:16.634+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.094 seconds
+[2026-03-29T12:20:34.402+0500] {processor.py:161} INFO - Started process (PID=2632) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:20:34.402+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:20:34.404+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:20:34.404+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:20:34.410+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:20:34.425+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:20:34.425+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:20:34.434+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:20:34.434+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:20:34.487+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.092 seconds
+[2026-03-29T12:21:52.536+0500] {processor.py:161} INFO - Started process (PID=2845) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:21:52.537+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:21:52.539+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:21:52.539+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:21:52.546+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:21:52.564+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:21:52.564+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:21:52.575+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:21:52.574+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:21:52.631+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.103 seconds
+[2026-03-29T12:23:11.021+0500] {processor.py:161} INFO - Started process (PID=3230) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:23:11.022+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:23:11.023+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:23:11.023+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:23:11.028+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:23:11.043+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:23:11.043+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:23:11.052+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:23:11.052+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:23:11.108+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.093 seconds
+[2026-03-29T12:24:30.866+0500] {processor.py:161} INFO - Started process (PID=3518) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:24:30.867+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:24:30.868+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:24:30.868+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:24:30.873+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:24:30.888+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:24:30.888+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:24:30.897+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:24:30.897+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:24:30.951+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.092 seconds
+[2026-03-29T12:25:50.666+0500] {processor.py:161} INFO - Started process (PID=3774) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:25:50.666+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:25:50.668+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:25:50.668+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:25:50.673+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:25:50.688+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:25:50.688+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:25:50.697+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:25:50.697+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:25:50.760+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.102 seconds
+[2026-03-29T12:27:03.276+0500] {processor.py:161} INFO - Started process (PID=4159) to work on /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:27:03.277+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/hello_dag.py for tasks to queue
+[2026-03-29T12:27:03.278+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:27:03.278+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:27:03.283+0500] {processor.py:840} INFO - DAG(s) 'hello_dag' retrieved from /home/abayturar/airflow-project/dags/hello_dag.py
+[2026-03-29T12:27:03.298+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:27:03.297+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:27:03.307+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:27:03.306+0500] {dag.py:3947} INFO - Setting next_dagrun for hello_dag to None, run_after=None
+[2026-03-29T12:27:03.398+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/hello_dag.py took 0.129 seconds

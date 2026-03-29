@@ -1,0 +1,4 @@
+[2026-03-28T15:22:34.564+0500] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-28T15:22:34.579+0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sales_etl_superstore.transform manual__2026-03-28T10:22:26.411786+00:00 [queued]>
+[2026-03-28T15:22:34.583+0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sales_etl_superstore.transform manual__2026-03-28T10:22:26.411786+00:00 [queued]>
+[2026-03-28T15:22:34.584+0500] {taskinstance.py:2306} INFO - Starting attempt 1 of 1

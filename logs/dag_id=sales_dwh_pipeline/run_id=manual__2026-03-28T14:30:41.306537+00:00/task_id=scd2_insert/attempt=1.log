@@ -1,0 +1,76 @@
+[2026-03-28T19:35:34.852+0500] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-28T19:35:34.865+0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sales_dwh_pipeline.scd2_insert manual__2026-03-28T14:30:41.306537+00:00 [queued]>
+[2026-03-28T19:35:34.869+0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sales_dwh_pipeline.scd2_insert manual__2026-03-28T14:30:41.306537+00:00 [queued]>
+[2026-03-28T19:35:34.869+0500] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-03-28T19:35:34.881+0500] {taskinstance.py:2330} INFO - Executing <Task(PostgresOperator): scd2_insert> on 2026-03-28 14:30:41.306537+00:00
+[2026-03-28T19:35:34.901+0500] {standard_task_runner.py:64} INFO - Started process 30647 to run task
+[2026-03-28T19:35:34.907+0500] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'sales_dwh_pipeline', 'scd2_insert', 'manual__2026-03-28T14:30:41.306537+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/sales_dwh_pipeline.py', '--cfg-path', '/tmp/tmpkw5g2hpc']
+[2026-03-28T19:35:34.910+0500] {standard_task_runner.py:91} INFO - Job 30: Subtask scd2_insert
+[2026-03-28T19:35:34.945+0500] {task_command.py:426} INFO - Running <TaskInstance: sales_dwh_pipeline.scd2_insert manual__2026-03-28T14:30:41.306537+00:00 [running]> on host DESKTOP-I2ADLC6.localdomain
+[2026-03-28T19:35:34.987+0500] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='abay' AIRFLOW_CTX_DAG_ID='sales_dwh_pipeline' AIRFLOW_CTX_TASK_ID='scd2_insert' AIRFLOW_CTX_EXECUTION_DATE='2026-03-28T14:30:41.306537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-28T14:30:41.306537+00:00'
+[2026-03-28T19:35:34.989+0500] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-28T19:35:34.989+0500] {sql.py:282} INFO - Executing: INSERT INTO analytics.dim_customer (
+        customer_name,
+        customer_segment,
+        region,
+        province,
+        valid_from,
+        valid_to,
+        is_current
+    )
+SELECT s.customer_name,
+    s.customer_segment,
+    s.region,
+    s.province,
+    CURRENT_DATE,
+    NULL,
+    TRUE
+FROM analytics.sales_stg s
+    LEFT JOIN analytics.dim_customer d ON s.customer_name = d.customer_name
+    AND d.is_current = TRUE
+WHERE d.customer_name IS NULL
+    OR (
+        s.customer_segment IS DISTINCT
+        FROM d.customer_segment
+            OR s.region IS DISTINCT
+        FROM d.region
+            OR s.province IS DISTINCT
+        FROM d.province
+    );
+[2026-03-28T19:35:34.992+0500] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-28T19:35:34.997+0500] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-28T19:35:35.012+0500] {sql.py:495} INFO - Running statement: INSERT INTO analytics.dim_customer (
+        customer_name,
+        customer_segment,
+        region,
+        province,
+        valid_from,
+        valid_to,
+        is_current
+    )
+SELECT s.customer_name,
+    s.customer_segment,
+    s.region,
+    s.province,
+    CURRENT_DATE,
+    NULL,
+    TRUE
+FROM analytics.sales_stg s
+    LEFT JOIN analytics.dim_customer d ON s.customer_name = d.customer_name
+    AND d.is_current = TRUE
+WHERE d.customer_name IS NULL
+    OR (
+        s.customer_segment IS DISTINCT
+        FROM d.customer_segment
+            OR s.region IS DISTINCT
+        FROM d.region
+            OR s.province IS DISTINCT
+        FROM d.province
+    );, parameters: None
+[2026-03-28T19:35:35.016+0500] {sql.py:504} INFO - Rows affected: 0
+[2026-03-28T19:35:35.017+0500] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-28T19:35:35.021+0500] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=sales_dwh_pipeline, task_id=scd2_insert, run_id=manual__2026-03-28T14:30:41.306537+00:00, execution_date=20260328T143041, start_date=20260328T143534, end_date=20260328T143535
+[2026-03-28T19:35:35.164+0500] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-28T19:35:35.175+0500] {logging_mixin.py:188} WARNING - /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py:1297 AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `airflow.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+[2026-03-28T19:35:35.185+0500] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-28T19:35:35.187+0500] {local_task_job_runner.py:222} INFO - ::endgroup::

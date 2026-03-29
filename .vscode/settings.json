@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5433,
+            "driver": "PostgreSQL",
+            "name": "local_pg",
+            "database": "data_pipeline_project",
+            "username": "postgres"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "127.0.0.1",
+            "port": 5433,
+            "driver": "PostgreSQL",
+            "name": "local_pg",
+            "database": "data_pipeline_project",
+            "username": "postgres"
+        }
+    ]
+}
