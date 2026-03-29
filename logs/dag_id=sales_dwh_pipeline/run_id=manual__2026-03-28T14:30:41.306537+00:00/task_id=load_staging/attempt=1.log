@@ -1,4 +1,0 @@
-[2026-03-28T19:30:44.075+0500] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
-[2026-03-28T19:30:44.094+0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sales_dwh_pipeline.load_staging manual__2026-03-28T14:30:41.306537+00:00 [queued]>
-[2026-03-28T19:30:44.099+0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sales_dwh_pipeline.load_staging manual__2026-03-28T14:30:41.306537+00:00 [queued]>
-[2026-03-28T19:30:44.099+0500] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
