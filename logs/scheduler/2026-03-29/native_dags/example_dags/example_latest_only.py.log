@@ -180,3 +180,171 @@
 [2026-03-29T12:26:31.163+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:26:31.163+0500] {dag.py:3089} INFO - Sync 1 DAGs
 [2026-03-29T12:26:31.201+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:26:31.201+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
 [2026-03-29T12:26:31.259+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.145 seconds
+[2026-03-29T12:27:20.595+0500] {processor.py:161} INFO - Started process (PID=4261) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:27:20.595+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:27:20.597+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:27:20.597+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:27:20.602+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:27:20.618+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:27:20.618+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:27:20.633+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:27:20.633+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:27:20.650+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.061 seconds
+[2026-03-29T12:28:09.380+0500] {processor.py:161} INFO - Started process (PID=4483) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:28:09.381+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:28:09.383+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:28:09.383+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:28:09.389+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:28:09.409+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:28:09.409+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:28:09.426+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:28:09.426+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:28:09.446+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.072 seconds
+[2026-03-29T12:28:56.370+0500] {processor.py:161} INFO - Started process (PID=4608) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:28:56.371+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:28:56.373+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:28:56.372+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:28:56.379+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:28:56.398+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:28:56.398+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:28:56.414+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:28:56.414+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:28:56.440+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2026-03-29T12:29:47.097+0500] {processor.py:161} INFO - Started process (PID=4871) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:29:47.098+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:29:47.101+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:29:47.100+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:29:47.107+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:29:47.125+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:29:47.125+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:29:47.141+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:29:47.141+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:29:47.160+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.070 seconds
+[2026-03-29T12:30:38.168+0500] {processor.py:161} INFO - Started process (PID=5071) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:30:38.169+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:30:38.171+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:30:38.170+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:30:38.177+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:30:38.198+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:30:38.197+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:30:38.215+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:30:38.214+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:30:38.273+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.112 seconds
+[2026-03-29T12:31:28.064+0500] {processor.py:161} INFO - Started process (PID=5347) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:31:28.065+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:31:28.067+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:31:28.066+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:31:28.072+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:31:28.088+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:31:28.088+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:31:28.106+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:31:28.106+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:31:28.151+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.094 seconds
+[2026-03-29T12:32:37.687+0500] {processor.py:161} INFO - Started process (PID=6037) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:32:37.688+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:32:37.690+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:32:37.689+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:32:37.695+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:32:37.712+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:32:37.712+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:32:37.730+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:32:37.729+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:32:37.750+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.070 seconds
+[2026-03-29T12:33:27.023+0500] {processor.py:161} INFO - Started process (PID=6167) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:33:27.024+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:33:27.026+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:33:27.026+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:33:27.032+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:33:27.051+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:33:27.050+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:33:27.067+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:33:27.067+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:33:27.083+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.066 seconds
+[2026-03-29T12:34:14.927+0500] {processor.py:161} INFO - Started process (PID=6306) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:34:14.928+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:34:14.930+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:34:14.929+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:34:14.935+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:34:14.953+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:34:14.953+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:34:14.972+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:34:14.972+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:34:15.028+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.107 seconds
+[2026-03-29T12:35:04.049+0500] {processor.py:161} INFO - Started process (PID=6435) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:35:04.050+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:35:04.051+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:35:04.051+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:35:04.057+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:35:04.073+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:35:04.073+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:35:04.088+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:35:04.088+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:35:04.142+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.100 seconds
+[2026-03-29T12:35:52.750+0500] {processor.py:161} INFO - Started process (PID=6563) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:35:52.750+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:35:52.752+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:35:52.752+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:35:52.757+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:35:52.772+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:35:52.772+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:35:52.786+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:35:52.786+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:35:52.842+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.099 seconds
+[2026-03-29T12:36:42.545+0500] {processor.py:161} INFO - Started process (PID=6692) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:36:42.546+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:36:42.548+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:36:42.548+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:36:42.553+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:36:42.572+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:36:42.572+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:36:42.587+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:36:42.587+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:36:42.604+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.065 seconds
+[2026-03-29T12:37:32.429+0500] {processor.py:161} INFO - Started process (PID=6827) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:37:32.430+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:37:32.432+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:37:32.431+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:37:32.437+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:37:32.453+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:37:32.453+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:37:32.467+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:37:32.467+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:37:32.522+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.101 seconds
+[2026-03-29T12:38:22.491+0500] {processor.py:161} INFO - Started process (PID=6958) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:38:22.492+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:38:22.495+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:38:22.494+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:38:22.500+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:38:22.516+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:38:22.516+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:38:22.531+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:38:22.531+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:38:22.588+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.104 seconds
+[2026-03-29T12:39:15.312+0500] {processor.py:161} INFO - Started process (PID=7092) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:39:15.313+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:39:15.315+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:39:15.314+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:39:15.320+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:39:15.336+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:39:15.336+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:39:15.351+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:39:15.351+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:39:15.404+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.098 seconds
+[2026-03-29T12:40:06.467+0500] {processor.py:161} INFO - Started process (PID=7255) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:40:06.468+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:40:06.470+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:40:06.469+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:40:06.475+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:40:06.490+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:40:06.490+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:40:06.503+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:40:06.503+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:40:06.558+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.096 seconds
+[2026-03-29T12:40:56.795+0500] {processor.py:161} INFO - Started process (PID=7389) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:40:56.796+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:40:56.797+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:40:56.797+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:40:56.802+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:40:56.819+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:40:56.819+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:40:56.833+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:40:56.833+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:40:56.888+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.100 seconds
+[2026-03-29T12:41:48.717+0500] {processor.py:161} INFO - Started process (PID=7548) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:41:48.718+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:41:48.720+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:41:48.719+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:41:48.725+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:41:48.743+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:41:48.742+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:41:48.758+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:41:48.758+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:41:48.804+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.093 seconds
+[2026-03-29T12:42:39.453+0500] {processor.py:161} INFO - Started process (PID=7683) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:42:39.454+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:42:39.456+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:42:39.455+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:42:39.460+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:42:39.477+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:42:39.477+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:42:39.492+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:42:39.491+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:42:39.546+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.099 seconds
+[2026-03-29T12:43:32.382+0500] {processor.py:161} INFO - Started process (PID=7818) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:43:32.383+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:43:32.385+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:43:32.384+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:43:32.390+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:43:32.405+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:43:32.405+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:43:32.419+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:43:32.419+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:43:32.473+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.097 seconds
+[2026-03-29T12:44:25.148+0500] {processor.py:161} INFO - Started process (PID=8088) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:44:25.149+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:44:25.150+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:44:25.150+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:44:25.155+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:44:25.171+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:44:25.171+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:44:25.185+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:44:25.185+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:44:25.200+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.058 seconds
+[2026-03-29T12:45:19.422+0500] {processor.py:161} INFO - Started process (PID=8510) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:45:19.423+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:45:19.425+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:45:19.425+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:45:19.430+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:45:19.450+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:45:19.450+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:45:19.466+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:45:19.466+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:45:19.522+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.107 seconds
+[2026-03-29T12:46:12.423+0500] {processor.py:161} INFO - Started process (PID=8757) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:46:12.424+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:46:12.426+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:46:12.425+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:46:12.430+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:46:12.446+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:46:12.445+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:46:12.459+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:46:12.459+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:46:12.473+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.056 seconds
+[2026-03-29T12:47:04.222+0500] {processor.py:161} INFO - Started process (PID=9070) to work on /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:47:04.223+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-03-29T12:47:04.225+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:47:04.224+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:47:04.230+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-03-29T12:47:04.249+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:47:04.249+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:47:04.265+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:47:04.265+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2026-03-29 00:00:00+00:00, run_after=2026-03-29 04:00:00+00:00
+[2026-03-29T12:47:04.285+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.069 seconds

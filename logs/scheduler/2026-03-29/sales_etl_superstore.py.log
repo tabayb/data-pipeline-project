@@ -124,3 +124,115 @@
 [2026-03-29T12:26:13.933+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:26:13.933+0500] {dag.py:3089} INFO - Sync 1 DAGs
 [2026-03-29T12:26:13.959+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:26:13.958+0500] {dag.py:3947} INFO - Setting next_dagrun for sales_etl_superstore to None, run_after=None
 [2026-03-29T12:26:14.020+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/sales_etl_superstore.py took 0.142 seconds
+[2026-03-29T12:27:27.495+0500] {processor.py:161} INFO - Started process (PID=4292) to work on /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:27:27.496+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/sales_etl_superstore.py for tasks to queue
+[2026-03-29T12:27:27.497+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:27:27.497+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:27:27.504+0500] {processor.py:840} INFO - DAG(s) 'sales_etl_superstore' retrieved from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:27:27.522+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:27:27.522+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:27:27.532+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:27:27.532+0500] {dag.py:3947} INFO - Setting next_dagrun for sales_etl_superstore to None, run_after=None
+[2026-03-29T12:27:27.549+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/sales_etl_superstore.py took 0.061 seconds
+[2026-03-29T12:28:39.111+0500] {processor.py:161} INFO - Started process (PID=4556) to work on /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:28:39.112+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/sales_etl_superstore.py for tasks to queue
+[2026-03-29T12:28:39.114+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:28:39.113+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:28:39.121+0500] {processor.py:840} INFO - DAG(s) 'sales_etl_superstore' retrieved from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:28:39.138+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:28:39.138+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:28:39.148+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:28:39.147+0500] {dag.py:3947} INFO - Setting next_dagrun for sales_etl_superstore to None, run_after=None
+[2026-03-29T12:28:39.166+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/sales_etl_superstore.py took 0.062 seconds
+[2026-03-29T12:29:52.579+0500] {processor.py:161} INFO - Started process (PID=4916) to work on /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:29:52.580+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/sales_etl_superstore.py for tasks to queue
+[2026-03-29T12:29:52.582+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:29:52.581+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:29:52.590+0500] {processor.py:840} INFO - DAG(s) 'sales_etl_superstore' retrieved from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:29:52.607+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:29:52.607+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:29:52.618+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:29:52.617+0500] {dag.py:3947} INFO - Setting next_dagrun for sales_etl_superstore to None, run_after=None
+[2026-03-29T12:29:52.673+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/sales_etl_superstore.py took 0.101 seconds
+[2026-03-29T12:31:08.278+0500] {processor.py:161} INFO - Started process (PID=5197) to work on /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:31:08.279+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/sales_etl_superstore.py for tasks to queue
+[2026-03-29T12:31:08.281+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:31:08.280+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:31:08.287+0500] {processor.py:840} INFO - DAG(s) 'sales_etl_superstore' retrieved from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:31:08.302+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:31:08.302+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:31:08.311+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:31:08.310+0500] {dag.py:3947} INFO - Setting next_dagrun for sales_etl_superstore to None, run_after=None
+[2026-03-29T12:31:08.365+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/sales_etl_superstore.py took 0.093 seconds
+[2026-03-29T12:32:19.954+0500] {processor.py:161} INFO - Started process (PID=5918) to work on /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:32:19.956+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/sales_etl_superstore.py for tasks to queue
+[2026-03-29T12:32:19.957+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:32:19.957+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:32:19.964+0500] {processor.py:840} INFO - DAG(s) 'sales_etl_superstore' retrieved from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:32:19.979+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:32:19.979+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:32:19.989+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:32:19.988+0500] {dag.py:3947} INFO - Setting next_dagrun for sales_etl_superstore to None, run_after=None
+[2026-03-29T12:32:20.005+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/sales_etl_superstore.py took 0.059 seconds
+[2026-03-29T12:33:31.864+0500] {processor.py:161} INFO - Started process (PID=6179) to work on /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:33:31.865+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/sales_etl_superstore.py for tasks to queue
+[2026-03-29T12:33:31.867+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:33:31.867+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:33:31.875+0500] {processor.py:840} INFO - DAG(s) 'sales_etl_superstore' retrieved from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:33:31.892+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:33:31.892+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:33:31.901+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:33:31.901+0500] {dag.py:3947} INFO - Setting next_dagrun for sales_etl_superstore to None, run_after=None
+[2026-03-29T12:33:31.957+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/sales_etl_superstore.py took 0.100 seconds
+[2026-03-29T12:34:45.350+0500] {processor.py:161} INFO - Started process (PID=6385) to work on /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:34:45.351+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/sales_etl_superstore.py for tasks to queue
+[2026-03-29T12:34:45.352+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:34:45.352+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:34:45.360+0500] {processor.py:840} INFO - DAG(s) 'sales_etl_superstore' retrieved from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:34:45.378+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:34:45.377+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:34:45.388+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:34:45.388+0500] {dag.py:3947} INFO - Setting next_dagrun for sales_etl_superstore to None, run_after=None
+[2026-03-29T12:34:45.408+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/sales_etl_superstore.py took 0.065 seconds
+[2026-03-29T12:35:59.287+0500] {processor.py:161} INFO - Started process (PID=6578) to work on /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:35:59.288+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/sales_etl_superstore.py for tasks to queue
+[2026-03-29T12:35:59.290+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:35:59.289+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:35:59.296+0500] {processor.py:840} INFO - DAG(s) 'sales_etl_superstore' retrieved from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:35:59.311+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:35:59.311+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:35:59.320+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:35:59.320+0500] {dag.py:3947} INFO - Setting next_dagrun for sales_etl_superstore to None, run_after=None
+[2026-03-29T12:35:59.376+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/sales_etl_superstore.py took 0.095 seconds
+[2026-03-29T12:37:13.878+0500] {processor.py:161} INFO - Started process (PID=6780) to work on /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:37:13.879+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/sales_etl_superstore.py for tasks to queue
+[2026-03-29T12:37:13.881+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:37:13.880+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:37:13.887+0500] {processor.py:840} INFO - DAG(s) 'sales_etl_superstore' retrieved from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:37:13.904+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:37:13.904+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:37:13.915+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:37:13.915+0500] {dag.py:3947} INFO - Setting next_dagrun for sales_etl_superstore to None, run_after=None
+[2026-03-29T12:37:13.935+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/sales_etl_superstore.py took 0.064 seconds
+[2026-03-29T12:38:29.141+0500] {processor.py:161} INFO - Started process (PID=6974) to work on /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:38:29.142+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/sales_etl_superstore.py for tasks to queue
+[2026-03-29T12:38:29.144+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:38:29.143+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:38:29.150+0500] {processor.py:840} INFO - DAG(s) 'sales_etl_superstore' retrieved from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:38:29.165+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:38:29.165+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:38:29.175+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:38:29.175+0500] {dag.py:3947} INFO - Setting next_dagrun for sales_etl_superstore to None, run_after=None
+[2026-03-29T12:38:29.231+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/sales_etl_superstore.py took 0.096 seconds
+[2026-03-29T12:39:48.052+0500] {processor.py:161} INFO - Started process (PID=7208) to work on /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:39:48.053+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/sales_etl_superstore.py for tasks to queue
+[2026-03-29T12:39:48.054+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:39:48.054+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:39:48.061+0500] {processor.py:840} INFO - DAG(s) 'sales_etl_superstore' retrieved from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:39:48.076+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:39:48.075+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:39:48.084+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:39:48.084+0500] {dag.py:3947} INFO - Setting next_dagrun for sales_etl_superstore to None, run_after=None
+[2026-03-29T12:39:48.100+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/sales_etl_superstore.py took 0.054 seconds
+[2026-03-29T12:41:03.320+0500] {processor.py:161} INFO - Started process (PID=7404) to work on /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:41:03.321+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/sales_etl_superstore.py for tasks to queue
+[2026-03-29T12:41:03.322+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:41:03.322+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:41:03.329+0500] {processor.py:840} INFO - DAG(s) 'sales_etl_superstore' retrieved from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:41:03.344+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:41:03.344+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:41:03.353+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:41:03.353+0500] {dag.py:3947} INFO - Setting next_dagrun for sales_etl_superstore to None, run_after=None
+[2026-03-29T12:41:03.409+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/sales_etl_superstore.py took 0.095 seconds
+[2026-03-29T12:42:20.817+0500] {processor.py:161} INFO - Started process (PID=7636) to work on /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:42:20.827+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/sales_etl_superstore.py for tasks to queue
+[2026-03-29T12:42:20.830+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:42:20.830+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:42:20.839+0500] {processor.py:840} INFO - DAG(s) 'sales_etl_superstore' retrieved from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:42:20.856+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:42:20.856+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:42:20.866+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:42:20.866+0500] {dag.py:3947} INFO - Setting next_dagrun for sales_etl_superstore to None, run_after=None
+[2026-03-29T12:42:20.884+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/sales_etl_superstore.py took 0.073 seconds
+[2026-03-29T12:43:40.751+0500] {processor.py:161} INFO - Started process (PID=7862) to work on /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:43:40.752+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/sales_etl_superstore.py for tasks to queue
+[2026-03-29T12:43:40.754+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:43:40.753+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:43:40.762+0500] {processor.py:840} INFO - DAG(s) 'sales_etl_superstore' retrieved from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:43:40.782+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:43:40.782+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:43:40.793+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:43:40.793+0500] {dag.py:3947} INFO - Setting next_dagrun for sales_etl_superstore to None, run_after=None
+[2026-03-29T12:43:40.848+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/sales_etl_superstore.py took 0.105 seconds
+[2026-03-29T12:45:00.177+0500] {processor.py:161} INFO - Started process (PID=8348) to work on /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:45:00.178+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/sales_etl_superstore.py for tasks to queue
+[2026-03-29T12:45:00.180+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:45:00.179+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:45:00.186+0500] {processor.py:840} INFO - DAG(s) 'sales_etl_superstore' retrieved from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:45:00.201+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:45:00.201+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:45:00.210+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:45:00.210+0500] {dag.py:3947} INFO - Setting next_dagrun for sales_etl_superstore to None, run_after=None
+[2026-03-29T12:45:00.267+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/sales_etl_superstore.py took 0.096 seconds
+[2026-03-29T12:46:18.113+0500] {processor.py:161} INFO - Started process (PID=8772) to work on /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:46:18.149+0500] {processor.py:830} INFO - Processing file /home/abayturar/airflow-project/dags/sales_etl_superstore.py for tasks to queue
+[2026-03-29T12:46:18.152+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:46:18.152+0500] {dagbag.py:545} INFO - Filling up the DagBag from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:46:18.159+0500] {processor.py:840} INFO - DAG(s) 'sales_etl_superstore' retrieved from /home/abayturar/airflow-project/dags/sales_etl_superstore.py
+[2026-03-29T12:46:18.174+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:46:18.174+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-29T12:46:18.183+0500] {logging_mixin.py:188} INFO - [2026-03-29T12:46:18.183+0500] {dag.py:3947} INFO - Setting next_dagrun for sales_etl_superstore to None, run_after=None
+[2026-03-29T12:46:18.198+0500] {processor.py:183} INFO - Processing /home/abayturar/airflow-project/dags/sales_etl_superstore.py took 0.093 seconds
