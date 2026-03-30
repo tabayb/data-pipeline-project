@@ -62,6 +62,7 @@ The pipeline processes sales data and builds a structured **analytics-ready Data
 ---
 
 ## 📂 Project Structure
+```
 .
 ├── dags/
 │ ├── sales_etl_superstore.py # ingestion (extract + load)
@@ -86,7 +87,7 @@ The pipeline processes sales data and builds a structured **analytics-ready Data
 ├── config.yaml
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 🔄 Pipeline Workflow
