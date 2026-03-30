@@ -128,6 +128,60 @@ The pipeline uses an **incremental strategy based on `updated_at`**:
 - ensures efficient execution
 
 ---
+## 🔄 Evolution: From ETL to Modern ELT
+Initially, the pipeline was implemented as a traditional ETL process using SQL scripts orchestrated in Airflow:
+```
+load_staging → scd2_update → scd2_insert → dim_product → dim_ship_mode → load_fact
+```
+
+This approach worked but had several limitations:
+
+- transformation logic was scattered across multiple SQL files
+- difficult to maintain and scale
+- limited testing capabilities
+- tightly coupled pipeline logic
+
+---
+
+### 🚀 Refactored Approach
+
+The pipeline was redesigned using **dbt (ELT approach)**:
+
+- transformations moved to dbt models
+- modular structure (staging → marts)
+- built-in testing (not_null, unique, relationships)
+- support for incremental models
+
+---
+
+### 📊 Before vs After
+
+| Metric | Before | After |
+|------|--------|------|
+| Staging rows | 797 | 8407 |
+| Fact rows | 8402 | 8407 |
+| Dim Customer | 799 | 1316 |
+
+---
+
+### 🧠 Key Improvements
+
+- incremental processing instead of full reloads  
+- improved maintainability and readability  
+- better data quality validation  
+- clear separation of ingestion and transformation  
+
+---
+
+### 🔥 SCD Type 2
+
+The project implements Slowly Changing Dimension Type 2:
+
+- historical changes are preserved  
+- only one active record per customer (`is_current = TRUE`)  
+- previous versions are closed using `valid_to`  
+
+Example: customer changes create multiple historical records instead of overwriting data
 
 ## ✅ Data Quality
 
