@@ -1,93 +1,167 @@
-# Data Pipeline Project
+# 🚀 Data Engineering Pipeline (Airflow + dbt + PostgreSQL)
 
-## Project Overview
-This project demonstrates a simple end-to-end **batch data pipeline**
-built to practice core **data engineering fundamentals**:
+## 📌 Project Overview
 
-- data extraction
-- data transformation
+This project implements a production-style **batch data pipeline** using modern data engineering tools.
+
+It simulates a real-world Data Warehouse (DWH) pipeline with:
+
+- workflow orchestration using Airflow
+- SQL-based transformations via dbt
+- incremental data loading
+- dimensional modeling (fact & dimension tables)
 - data quality checks
-- incremental loading into PostgreSQL
 
-The pipeline processes historical sales data from a CSV file and loads
-it into a PostgreSQL database using an **idempotent, insert-only incremental approach**.
-
-The goal of the project is to simulate a production-like batch ETL workflow
-and apply best practices around data reliability and history preservation.
+The pipeline processes sales data and builds a structured **analytics-ready Data Warehouse**.
 
 ---
 
-## Tech Stack
+## 🏗️ Architecture
+    CSV (Raw Data)
+           ↓
+    Python Ingestion (Airflow)
+           ↓
+    Staging Layer (Postgres)
+           ↓
+    dbt Transformations
+    (stg → marts → fact/dim)
+           ↓
+    Analytics Tables
+
+
+---
+
+## 🧰 Tech Stack
+
 - Python
-- pandas
 - PostgreSQL
+- Apache Airflow
+- dbt (Data Build Tool)
+- pandas
 - psycopg2
 - YAML
 - Git
 
 ---
 
-## Project Structure
-```text
+## 📂 Project Structure
+
+---
+
+## 🧰 Tech Stack
+
+- Python
+- PostgreSQL
+- Apache Airflow
+- dbt (Data Build Tool)
+- pandas
+- psycopg2
+- YAML
+- Git
+
+---
+
+## 📂 Project Structure
 .
-├── README.md
+├── dags/
+│ ├── sales_etl_superstore.py # ingestion (extract + load)
+│ └── sales_dwh_pipeline.py # dbt orchestration
+│
+├── load/
+│ └── load_to_postgres.py # loading logic
+│
+├── sales_dwh/ # dbt project
+│ ├── models/
+│ ├── macros/
+│ ├── dbt_project.yml
+│
+├── data/
+│ ├── raw/
+│ └── processed/
+│
+├── sql/
+│ ├── ddl/
+│ └── debugging/
+│
 ├── config.yaml
 ├── requirements.txt
-├── data/
-│   ├── raw/
-│   └── processed/
-│       └── superstore_sales_processed.csv
-└── src/
-    ├── extract.py
-    ├── transform.py
-    ├── dq_checks.py
-    └── load.py
-```
-## Data Source
-The pipeline uses a static CSV file with historical sales data.
-The dataset represents order line–level transactions and includes
-dates, product information, customer attributes, and financial metrics.
-
-**Raw data location:**
-```
-data/raw/superstore_sales.csv
-```
-**Processed data location:**
-```
-data/processed/superstore_sales_processed.csv
-```
+└── README.md
 
 ---
-## Pipeline Logic:
 
-The pipeline consists of the following steps:
+## 🔄 Pipeline Workflow
 
-1. **Extract**
-   - Reads raw CSV data from the `data/raw` directory.
+### 1. Ingestion (Python + Airflow)
 
-2. **Transform**
-   - Cleans column names
-   - Casts data types
-   - Parses date fields
-   - Applies basic data quality checks
+- Downloads CSV data
+- Loads data into PostgreSQL staging tables
 
-3. **Load**
-   - Loads data into PostgreSQL
-   - Uses an incremental, insert-only strategy
-   - Ensures idempotent execution
+### 2. Transform (dbt)
+
+- Builds staging models (`stg_sales`)
+- Creates dimensional models:
+  - `dim_customer` (SCD Type 2)
+  - `dim_product`
+- Builds fact table:
+  - `fact_sales` (incremental)
+
+### 3. Orchestration (Airflow)
+
+Airflow schedules and executes:
+
+- ingestion DAG
+- dbt transformations
+- dbt tests
 
 ---
-## How to Run:
-1. Create and activate virtual environment
-2. Install dependencies:
-```
+
+## ⚡ Incremental Loading
+
+The pipeline uses an **incremental strategy based on `updated_at`**:
+
+- only new or updated records are processed
+- avoids full table rebuilds
+- ensures efficient execution
+
+---
+
+## ✅ Data Quality
+
+Implemented using dbt tests:
+
+- not null checks
+- uniqueness constraints
+- relationships (foreign keys)
+
+---
+
+## ▶️ How to Run
+
+1. Install dependencies
+
+```bash
 pip install -r requirements.txt
 ```
-3. Run the pipeline:
+2. Run dbt
+```bash
+cd sales_dwh
+dbt run
+dbt test
 ```
-python src/extract.py
-python src/transform.py
-python src/dq_checks.py
-python src/load.py
+3. Run Airflow DAG
+```bash
+airflow dags trigger sales_dwh_pipeline
 ```
-The pipeline can be executed multiple times without creating duplicate records.
+🎯 Key Features
+- Modular pipeline design
+- Idempotent data loading
+- Incremental data processing
+- Scalable transformations with dbt
+- Clear separation of concerns (ingestion vs transformation)
+- Production-style architecture
+
+🚀 Future Improvements
+- add CI/CD (GitHub Actions)
+- implement dbt snapshots (SCD2 via dbt)
+- add monitoring & alerts
+- move to cloud (BigQuery / Snowflake)
