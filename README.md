@@ -17,6 +17,9 @@ The pipeline processes sales data and builds a structured **analytics-ready Data
 ---
 
 ## 🏗️ Architecture
+
+![DWH Architecture](docs/architecture.png)
+
     CSV (Raw Data)
            ↓
     Python Ingestion (Airflow)
