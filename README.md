@@ -47,22 +47,6 @@ The pipeline processes sales data and builds a structured **analytics-ready Data
 
 ---
 
-## 📂 Project Structure
-
----
-
-## 🧰 Tech Stack
-
-- Python
-- PostgreSQL
-- Apache Airflow
-- dbt (Data Build Tool)
-- pandas
-- psycopg2
-- YAML
-- Git
-
----
 
 ## 📂 Project Structure
 ```
