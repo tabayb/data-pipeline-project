@@ -1,0 +1,46 @@
+version: 2
+
+sources:
+  - name: analytics
+    tables:
+      - name: dim_customer
+      - name: dim_product
+
+models:
+  - name: fact_sales
+    description: "Факт продаж (order line)"
+
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+
+      - name: product_id
+        tests:
+          - not_null
+          - relationships:
+              to: source('analytics', 'dim_product')
+              field: product_id
+
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: source('analytics', 'dim_customer')
+              field: customer_id
+
+      - name: sales
+        tests:
+          - not_null
+
+    tests:
+      - unique:
+          column_name: "(order_id || '-' || product_id)"
+
+  - name: stg_sales
+    description: "Staging слой продаж"
+
+    columns:
+      - name: order_id
+        tests:
+          - not_null
